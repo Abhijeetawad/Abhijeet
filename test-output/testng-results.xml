@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-20T12:56:10 IST" name="Default suite" finished-at="2025-09-20T12:56:22 IST" duration-ms="12495">
+    <groups>
+    </groups>
+    <test started-at="2025-09-20T12:56:10 IST" name="Default test" finished-at="2025-09-20T12:56:22 IST" duration-ms="12495">
+      <class name="test.FaceBookLoginTest">
+        <test-method is-config="true" signature="ConfigureReports()[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:10 IST" name="ConfigureReports" finished-at="2025-09-20T12:56:10 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureReports -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:10 IST" name="LaunchBrowser" finished-at="2025-09-20T12:56:13 IST" duration-ms="3336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="createNewAccountTest()[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:13 IST" name="createNewAccountTest" finished-at="2025-09-20T12:56:15 IST" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccountTest -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:15 IST" name="addTestStatus" finished-at="2025-09-20T12:56:15 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewAccountTest status=SUCCESS method=FaceBookLoginTest.createNewAccountTest()[pri:0, instance:test.FaceBookLoginTest@58a9760d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:15 IST" name="LaunchBrowser" finished-at="2025-09-20T12:56:18 IST" duration-ms="2935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="verifyIfFacebookLoginPageDisplayedonloginPage()[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:18 IST" name="verifyIfFacebookLoginPageDisplayedonloginPage" finished-at="2025-09-20T12:56:18 IST" duration-ms="237" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at test.FaceBookLoginTest.verifyIfFacebookLoginPageDisplayedonloginPage(FaceBookLoginTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfFacebookLoginPageDisplayedonloginPage -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:18 IST" name="addTestStatus" finished-at="2025-09-20T12:56:18 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIfFacebookLoginPageDisplayedonloginPage status=FAILURE method=FaceBookLoginTest.verifyIfFacebookLoginPageDisplayedonloginPage()[pri:0, instance:test.FaceBookLoginTest@58a9760d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:18 IST" name="LaunchBrowser" finished-at="2025-09-20T12:56:22 IST" duration-ms="3432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="verifyLoginPageTitle()[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:22 IST" name="verifyLoginPageTitle" finished-at="2025-09-20T12:56:22 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:22 IST" name="addTestStatus" finished-at="2025-09-20T12:56:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageTitle status=SUCCESS method=FaceBookLoginTest.verifyLoginPageTitle()[pri:0, instance:test.FaceBookLoginTest@58a9760d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="publishReports()[pri:0, instance:test.FaceBookLoginTest@58a9760d]" started-at="2025-09-20T12:56:22 IST" name="publishReports" finished-at="2025-09-20T12:56:22 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReports -->
+      </class> <!-- test.FaceBookLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
